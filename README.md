@@ -5,10 +5,11 @@ The SQL Agent simulates a banking-style AI assistant. When a user asks to check 
 ![Workflow](assets/graph.png)
 
 The workflow is roughly
-1. **sql_translator**: converts user query → SQL  
-2. **sql_executor**: runs SQL on the database  
-3. **generator**: refines or formats the output  
-4. The graph returns the final result
+| Step | Component / Node     | Description                                  |
+|---|-----------------------|-----------------------------------------------|
+| 1 | **sql_translator**     | Converts the user’s natural-language query into a SQL statement |
+| 2 | **sql_executor**       | Executes the generated SQL query against the database |
+| 3 | **generator**          | Refines, formats, or post-processes the SQL result using LLM logic |
 
 ---
 
