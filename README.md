@@ -12,8 +12,6 @@ The workflow is roughly
 
 ---
 
-## Tech Stack & Tools
-
 ## Tech stack
 - **Python:** 3.13
 - **Poetry:** dependency & virtualenv management
